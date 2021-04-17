@@ -239,9 +239,9 @@ class App extends React.Component {
   render() {
     return <>
       <NavBarContainer>
-        <img className={'img-logo'} src={'https://bnbearn.app/img/Logo.png'}/>
+        <img className={'img-logo'} alt={'logo'} src={'https://bnbearn.app/img/Logo.png'}/>
         <NavBarLeft>
-          <a className={'nav-button'} onClick={async () => await this.connectWallet()}>Connect Wallet</a>
+          <span className={'nav-button'} onClick={async () => await this.connectWallet()}>Connect Wallet</span>
           <a className={'nav-button'}
              href={'https://testnet.bscscan.com/address/0x830a01d661f8a76f795f74b36cbc6406b01e562c'}
              target={'_blank'}
