@@ -266,6 +266,7 @@ class App extends React.Component {
             <h4>Daily incomes from 10% to 20%</h4>
             <h4>Minimal deposit: 0.05 BNB, no maximal limit</h4>
             <h4>Withdraw any time for plans 1, 2 and 3. Withdraw at the end of plan for plans 4, 5 and 6</h4>
+            <h4>Started at: {new Date().toDateString()}</h4>
           </BNBInformation>
         </InformationContainer>
         <BasicPlans>
